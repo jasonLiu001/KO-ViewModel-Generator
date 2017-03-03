@@ -19,7 +19,7 @@ A tool can create viewmodel in knockout.js automatically.
 	   		title: '',
 	    		summary: '',
 	    		detailList: [],
-	    		getData: new Function()//viewmodel中需要生成的方式
+	    		getData: new Function()//viewmodel中需要生成的方法		
 		},
 		"detailViewModel": {
 	    		detailTitle: '',
