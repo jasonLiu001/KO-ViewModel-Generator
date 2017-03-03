@@ -11,7 +11,7 @@ A tool can create viewmodel in knockout.js automatically.
 2. 下载源码到本地，并切换到源码根目录，打开cmd命令行，依次输入命令npm install ==> npm link
 
 # 使用
-1. 自定义model文件夹下对应的model对象，该对象是生成viewmodel对象的json描述文件，定义如下:
+1. 切换到源码目录，找到自定义model文件夹下对应的model对象，该对象是生成viewmodel对象的json描述文件，定义如下:
 <pre><code>
 	var dataModel = {
 		//key值为viewmodel对象的名称
@@ -27,4 +27,5 @@ A tool can create viewmodel in knockout.js automatically.
 		}
 	};
 </code></pre>
-2. 上面的mainViewModel或detailViewModel就是需要生成的viewmodel名称，getData为对应viewmodel对象下的方法
+2. 上面的mainViewModel或detailViewModel就是需要生成的viewmodel名称，getData为对应viewmodel对象下的方法，根据自己的需要，设置好viewmodel对象名称，需要生成的方法名等
+3. 打开cmd，输入命令:createvm 文件名，如：createvm test，即会在当前目录下生成test.js文件
