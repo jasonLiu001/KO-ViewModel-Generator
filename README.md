@@ -3,28 +3,28 @@ KnockoutJS-ViewModel-Generator
 A tool can create viewmodel in knockout.js automatically.
 ------------------------
 
-# ÓÃÍ¾
-* ¸ù¾İÓÃ»§ÅäÖÃ×Ô¶¯Éú³Éknockout¶ÔÓ¦µÄviewmodel¶ÔÏó
+# ç”¨é€”
+* æ ¹æ®ç”¨æˆ·é…ç½®è‡ªåŠ¨ç”Ÿæˆknockoutå¯¹åº”çš„viewmodelå¯¹è±¡
 
-# ÅäÖÃ
-1. °²×°npmµ½±¾µØ
-2. ÏÂÔØÔ´Âëµ½±¾µØ£¬²¢ÇĞ»»µ½Ô´Âë¸ùÄ¿Â¼£¬´ò¿ªcmdÃüÁîĞĞ£¬ÒÀ´ÎÊäÈëÃüÁînpm install ==> npm link
+# é…ç½®
+1. å®‰è£…npmåˆ°æœ¬åœ°
+2. ä¸‹è½½æºç åˆ°æœ¬åœ°ï¼Œå¹¶åˆ‡æ¢åˆ°æºç æ ¹ç›®å½•ï¼Œæ‰“å¼€cmdå‘½ä»¤è¡Œï¼Œä¾æ¬¡è¾“å…¥å‘½ä»¤npm install ==> npm link
 
-# Ê¹ÓÃ
-1. ×Ô¶¨ÒåmodelÎÄ¼ş¼ĞÏÂ¶ÔÓ¦µÄmodel¶ÔÏó£¬¸Ã¶ÔÏóÊÇÉú³Éviewmodel¶ÔÏóµÄjsonÃèÊöÎÄ¼ş£¬¶¨ÒåÈçÏÂ:
+# ä½¿ç”¨
+1. è‡ªå®šä¹‰modelæ–‡ä»¶å¤¹ä¸‹å¯¹åº”çš„modelå¯¹è±¡ï¼Œè¯¥å¯¹è±¡æ˜¯ç”Ÿæˆviewmodelå¯¹è±¡çš„jsonæè¿°æ–‡ä»¶ï¼Œå®šä¹‰å¦‚ä¸‹:
 <pre><code>
-var dataModel = {
-	//keyÖµÎªviewmodel¶ÔÏóµÄÃû³Æ
-	"mainViewModel": {
-	    title: '',
-	    summary: '',
-	    detailList: [],
-	    getData: new Function()//viewmodelÖĞĞèÒªÉú³ÉµÄ·½Ê½
-	},
-	"detailViewModel": {
-	    detailTitle: '',
-	    detailSummary: ''
-	}
-};
+	var dataModel = {
+		//keyå€¼ä¸ºviewmodelå¯¹è±¡çš„åç§°
+		"mainViewModel": {
+	   		title: '',
+	    		summary: '',
+	    		detailList: [],
+	    		getData: new Function()//viewmodelä¸­éœ€è¦ç”Ÿæˆçš„æ–¹å¼
+		},
+		"detailViewModel": {
+	    		detailTitle: '',
+	    		detailSummary: ''
+		}
+	};
 </code></pre>
-2. ÉÏÃæµÄmainViewModel»òdetailViewModel¾ÍÊÇĞèÒªÉú³ÉµÄviewmodelÃû³Æ£¬getDataÎª¶ÔÓ¦viewmodel¶ÔÏóÏÂµÄ·½·¨
+2. ä¸Šé¢çš„mainViewModelæˆ–detailViewModelå°±æ˜¯éœ€è¦ç”Ÿæˆçš„viewmodelåç§°ï¼ŒgetDataä¸ºå¯¹åº”viewmodelå¯¹è±¡ä¸‹çš„æ–¹æ³•
