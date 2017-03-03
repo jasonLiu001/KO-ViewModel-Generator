@@ -13,7 +13,7 @@ A tool can create viewmodel in knockout.js automatically.
 # 使用
 1. 自定义model文件夹下对应的model对象，该对象是生成viewmodel对象的json描述文件，定义如下:
 <pre><code>
-	var dataModel = {
+var dataModel = {
 	//key值为viewmodel对象的名称
 	"mainViewModel": {
 	    title: '',
