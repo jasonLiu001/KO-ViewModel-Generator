@@ -27,3 +27,4 @@ var dataModel = {
 	}
 };
 </code></pre>
+2. 上面的mainViewModel或detailViewModel就是需要生成的viewmodel名称，getData为对应viewmodel对象下的方法
