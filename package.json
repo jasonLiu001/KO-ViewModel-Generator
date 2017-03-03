@@ -1,0 +1,25 @@
+{
+  "name": "viewmodelgenerator",
+  "version": "1.0.0",
+  "description": "This tool can create viewmodel automatically.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonLiu001/KO-ViewModel-Generator.git"
+  },
+  "author": "jason liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonLiu001/KO-ViewModel-Generator/issues"
+  },
+  "homepage": "https://github.com/jasonLiu001/KO-ViewModel-Generator#readme",
+  "bin": {
+    "createvm": "bin/createvm"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}

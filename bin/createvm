@@ -1,0 +1,2 @@
+#!/usr/bin/env node
+var createvm = require('../lib/createvm.js');
