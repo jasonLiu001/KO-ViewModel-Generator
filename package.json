@@ -1,8 +1,8 @@
 {
   "name": "viewmodelgenerator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This tool can create viewmodel automatically.",
-  "main": "app.js",
+  "main": "lib/createvm",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
