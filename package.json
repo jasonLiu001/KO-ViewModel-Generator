@@ -1,6 +1,6 @@
 {
   "name": "viewmodelgenerator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This tool can create viewmodel automatically.",
   "main": "app.js",
   "scripts": {
